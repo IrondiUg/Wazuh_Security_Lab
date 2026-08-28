@@ -111,15 +111,15 @@ A dedicated Cisco Network Security Monitoring dashboard was created and fine-tun
 
 The dashboard contains nine panels:
 `
-Cisco - Total Alerts
-Cisco - Alerts Over Time
-Cisco - Top Event Types
-Cisco - Alerts by Device
-Cisco - Events by Facility
-Cisco - Syslog Severity
-Cisco - Wazuh Rule Levels
-Cisco - Top Detection Rules
-Cisco - Recent Alerts
+- Cisco - Total Alerts
+- Cisco - Alerts Over Time
+- Cisco - Top Event Types
+- Cisco - Alerts by Device
+- Cisco - Events by Facility
+- Cisco - Syslog Severity
+- Cisco - Wazuh Rule Levels
+- Cisco - Top Detection Rules
+- Cisco - Recent Alerts
 `
 The primary dashboard filter is: `decoder.name:cisco-ios`
 
