@@ -1,4 +1,3 @@
-<img width="1366" height="635" alt="24" src="https://github.com/user-attachments/assets/c349dfeb-1a42-40f1-814f-e0d40ad73aa7" />
 ## Cisco Agentless Deployment (Routers and Switches)
 
 ## Overview
