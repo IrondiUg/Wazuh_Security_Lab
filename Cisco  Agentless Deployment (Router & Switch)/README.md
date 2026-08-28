@@ -89,3 +89,6 @@ The monitoring architecture is:
           Cisco Security Dashboard
 
 ```
+---
+## Cisco Syslog Configuration
+Cisco devices were configured to send Syslog messages to the Wazuh server.
