@@ -117,7 +117,7 @@ Wazuh was configured to receive remote Syslog messages using the <remote> config
   <allowed-ips>192.168.100.151</allowed-ips>
 </remote>
 ```
-Copy the exact text and replace with the cisco device ip
+#### Copy the exact text and replace with the cisco device ip
 ---
 
 ## Wazuh Dashboard
