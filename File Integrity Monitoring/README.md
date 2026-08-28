@@ -1,1 +1,1 @@
-
+[Wazuh](https://img.shields.io/badge/Wazuh-FIM-blue) ![Windows](https://img.shields.io/badge/Endpoint-Windows-0078D6) ![Ubuntu](https://img.shields.io/badge/Endpoint-Ubuntu-E95420) ![Security](https://img.shields.io/badge/Focus-File%20Integrity%20Monitoring-red) ![Status](https://img.shields.io/badge/Status-Completed-success)
