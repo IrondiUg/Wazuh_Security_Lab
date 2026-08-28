@@ -110,7 +110,7 @@ Wazuh was configured to receive remote Syslog messages using the <remote> config
 A dedicated Cisco Network Security Monitoring dashboard was created and fine-tuned.
 
 The dashboard contains nine panels:
-
+`
 Cisco - Total Alerts
 Cisco - Alerts Over Time
 Cisco - Top Event Types
@@ -120,7 +120,7 @@ Cisco - Syslog Severity
 Cisco - Wazuh Rule Levels
 Cisco - Top Detection Rules
 Cisco - Recent Alerts
-
+`
 The primary dashboard filter is: `decoder.name:cisco-ios`
 
 <img width="1366" height="635" alt="24" src="https://github.com/user-attachments/assets/39616a23-2e3b-4b13-afd6-74590b09d548" />
