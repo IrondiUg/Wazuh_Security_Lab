@@ -1,15 +1,10 @@
 ## Cisco Agentless Deployment (Routers and Switches)
 
-## Overview
-
 This project documents the implementation of agentless monitoring for Cisco network devices using Wazuh.
-
 The lab was built in a PNETLab environment with a Wazuh server running on Ubuntu Server and Cisco network devices acting as monitored infrastructure.
-
 The monitoring approach uses Syslog rather than installing a Wazuh agent directly on the Cisco devices.
 
 The project covers:
-
 - Cisco router monitoring
 - Cisco switch monitoring
 - Wazuh Syslog configuration
