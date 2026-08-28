@@ -121,6 +121,7 @@ The dashboard contains nine panels:
 - Cisco - Top Detection Rules
 - Cisco - Recent Alerts
 `
+
 The primary dashboard filter is: `decoder.name:cisco-ios`
 
 <img width="1366" height="635" alt="24" src="https://github.com/user-attachments/assets/39616a23-2e3b-4b13-afd6-74590b09d548" />
