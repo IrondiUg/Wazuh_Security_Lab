@@ -1,4 +1,4 @@
-
+<img width="1366" height="635" alt="24" src="https://github.com/user-attachments/assets/c349dfeb-1a42-40f1-814f-e0d40ad73aa7" />
 ## Cisco Agentless Deployment (Routers and Switches)
 
 ## Overview
@@ -23,7 +23,6 @@ The project covers:
 - Future Active Response implementation
 
 ### Objectives
-
 The objectives of this project are to:
 
 1. Understand agentless monitoring of network devices with Wazuh.
@@ -38,7 +37,6 @@ The objectives of this project are to:
 
 
 ### Lab Environment
-
 | Component | Details |
 |---|---|
 | Monitoring Platform | Wazuh |
@@ -52,9 +50,7 @@ The objectives of this project are to:
 | Cisco Decoder | cisco-ios |
 
 ### Architecture
-
 The monitoring architecture is:
-
 ```
                     PNETLab
                        |
@@ -101,6 +97,8 @@ use your wazuh manager's actual IP
 ```
 show running-config | include logging
 ```
+<img width="1255" height="587" alt="18" src="https://github.com/user-attachments/assets/faebadd7-7204-42f1-93cd-0708d8569287" />
+
 ---
 ### Wazuh Remote Syslog Configuration
 Wazuh was configured to receive remote Syslog messages using the <remote> configuration.
@@ -132,3 +130,4 @@ Cisco - Recent Alerts
 
 The primary dashboard filter is: `decoder.name:cisco-ios`
 
+<img width="1366" height="635" alt="24" src="https://github.com/user-attachments/assets/39616a23-2e3b-4b13-afd6-74590b09d548" />
