@@ -92,3 +92,48 @@ The monitoring architecture is:
 ---
 ## Cisco Syslog Configuration
 Cisco devices were configured to send Syslog messages to the Wazuh server.
+```
+enable
+configure terminal
+logging host 192.168.100.61
+logging trap informational
+end
+write memory
+```
+use your wazuh manager's actual IP
+
+**Verify the configuration** This should show where the cisco device logs are being sent.
+```
+show running-config | include logging
+```
+---
+## Wazuh Remote Syslog Configuration
+Wazuh was configured to receive remote Syslog messages using the <remote> configuration.
+```
+<remote>
+  <connection>syslog</connection>
+  <port>514</port>
+  <protocol>udp</protocol>
+  <allowed-ips>192.168.100.151</allowed-ips>
+</remote>
+```
+Copy the exact text and replace with the cisco device ip
+---
+
+## Wazuh Dashboard
+A dedicated Cisco Network Security Monitoring dashboard was created and fine-tuned.
+
+The dashboard contains nine panels:
+
+Cisco - Total Alerts
+Cisco - Alerts Over Time
+Cisco - Top Event Types
+Cisco - Alerts by Device
+Cisco - Events by Facility
+Cisco - Syslog Severity
+Cisco - Wazuh Rule Levels
+Cisco - Top Detection Rules
+Cisco - Recent Alerts
+
+The primary dashboard filter is: `decoder.name:cisco-ios`
+
