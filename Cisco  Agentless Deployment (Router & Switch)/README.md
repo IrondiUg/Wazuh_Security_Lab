@@ -1,5 +1,5 @@
 
-# Cisco Agentless Deployment (Routers and Switches)
+## Cisco Agentless Deployment (Routers and Switches)
 
 ## Overview
 
@@ -22,9 +22,7 @@ The project covers:
 - Troubleshooting and verification
 - Future Active Response implementation
 
----
-
-## Objectives
+### Objectives
 
 The objectives of this project are to:
 
@@ -38,9 +36,8 @@ The objectives of this project are to:
 8. Develop custom detection rules for important Cisco security events.
 9. Implement automated response mechanisms using Wazuh Active Response.
 
----
 
-## Lab Environment
+### Lab Environment
 
 | Component | Details |
 |---|---|
@@ -54,9 +51,7 @@ The objectives of this project are to:
 | Syslog Port | 514 |
 | Cisco Decoder | cisco-ios |
 
----
-
-## Architecture
+### Architecture
 
 The monitoring architecture is:
 
@@ -89,8 +84,8 @@ The monitoring architecture is:
           Cisco Security Dashboard
 
 ```
----
-## Cisco Syslog Configuration
+
+### Cisco Syslog Configuration
 Cisco devices were configured to send Syslog messages to the Wazuh server.
 ```
 enable
@@ -102,12 +97,12 @@ write memory
 ```
 use your wazuh manager's actual IP
 
-**Verify the configuration** This should show where the cisco device logs are being sent.
+**Verify the configuration** - This should show where the cisco device logs are being sent.
 ```
 show running-config | include logging
 ```
 ---
-## Wazuh Remote Syslog Configuration
+### Wazuh Remote Syslog Configuration
 Wazuh was configured to receive remote Syslog messages using the <remote> configuration.
 ```
 <remote>
@@ -120,7 +115,7 @@ Wazuh was configured to receive remote Syslog messages using the <remote> config
 #### Copy the exact text and replace with the cisco device ip
 ---
 
-## Wazuh Dashboard
+### Wazuh Dashboard
 A dedicated Cisco Network Security Monitoring dashboard was created and fine-tuned.
 
 The dashboard contains nine panels:
