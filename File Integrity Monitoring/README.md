@@ -1,5 +1,4 @@
-## Wazuh File Integrity Monitoring (FIM)
-
+### Wazuh File Integrity Monitoring (FIM)
 The lab consists of: 
 - A **Wazuh Manager** running on Ubuntu Server
 - A **Windows endpoint** with a Wazuh Agent installed
